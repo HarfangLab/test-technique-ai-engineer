@@ -1,0 +1,34 @@
+{"question": "What is password spraying and how does it differ from traditional brute force attacks?"}
+{"question": "Which commonly used ports and services are typically targeted in password spraying attacks?"}
+{"question": "What are two techniques adversaries use to avoid detection when performing password spraying?"}
+{"question": "How can single sign-on (SSO) and cloud-based applications be involved in password spraying attacks?"}
+{"question": "What is the MITRE ATT&CK ID for the Content Injection technique?"}
+{"question": "What are the two main ways adversaries can inject content into victim systems according to the Content Injection technique?"}
+{"question": "How can internet service providers (ISPs) be involved in content injection attacks?"}
+{"question": "What tactics are associated with the Content Injection technique in MITRE ATT&CK?"}
+{"question": "What is drive-by compromise and what are three methods of delivering exploit code to a browser?"}
+{"question": "What is a strategic web compromise or watering hole attack?"}
+{"question": "How can browser push notifications be abused in drive-by compromise attacks?"}
+{"question": "What is cross-site scripting and how does it relate to drive-by compromise?"}
+{"question": "What information can adversaries capture through network sniffing?"}
+{"question": "How can adversaries place a network interface to capture data in transit?"}
+{"question": "What are some techniques that can be used in conjunction with network sniffing to capture credentials?"}
+{"question": "How do cloud-based environments like AWS, GCP, and Azure enable network sniffing?"}
+{"question": "What is System Binary Proxy Execution and why do adversaries use Microsoft-signed binaries?"}
+{"question": "What is the MITRE ATT&CK ID for System Binary Proxy Execution and how many sub-techniques does it have?"}
+{"question": "Which Linux binary can be abused to proxy execution of malicious commands, similar to how Windows signed binaries are used?"}
+{"question": "What platforms are supported by the System Binary Proxy Execution technique?"}
+{"question": "What is the Electron framework and which common applications use it?"}
+{"question": "How can adversaries abuse the Electron framework to execute malicious code?"}
+{"question": "What is an example command that demonstrates how Electron applications like chrome.exe can be abused to execute malicious commands?"}
+{"question": "What is the MITRE ATT&CK ID for the Electron Applications sub-technique?"}
+{"question": "What is rundll32.exe commonly used for in System Binary Proxy Execution attacks?"}
+{"question": "How can rundll32.exe be used to execute Control Panel Item files (.cpl)?"}
+{"question": "What is the syntax example provided for using rundll32.exe to execute JavaScript code?"}
+{"question": "Which malware family has been observed using rundll32.exe to execute JavaScript code?"}
+{"question": "What are some legitimate, signed system DLLs that can be abused with rundll32.exe to evade detection?"}
+{"question": "Compare and contrast password spraying with brute force attacks. What is the key difference in their approach to account lockouts?"}
+{"question": "How can adversaries leverage both Content Injection and Drive-by Compromise techniques together in an attack chain?"}
+{"question": "What defensive measures can be implemented to detect or prevent network sniffing in an enterprise environment?"}
+{"question": "Explain how System Binary Proxy Execution techniques can bypass process and signature-based defenses."}
+{"question": "What are the security implications of applications built with the Electron framework, and how can they be mitigated?"}
