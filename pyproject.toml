@@ -9,6 +9,7 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "click>=8.1.0",
     "tenacity>=8.2.0",
+    "rich>=15.0.0",
 ]
 
 [project.scripts]

@@ -86,7 +86,7 @@ def main(model: str, num_questions: int, questions_file: Path):
     questions = [
         json.loads(line).get("question")
         for line in questions_file.read_text().splitlines()
-        if line.strip()
+        if line.strip() and not line.strip().startswith("//")
     ]
 
     selected = random.sample(questions, min(num_questions, len(questions)))
