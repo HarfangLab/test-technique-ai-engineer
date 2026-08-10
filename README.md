@@ -72,6 +72,13 @@ We propose several topics for the case study. We ask you to prepare at least one
 
 ℹ️ You do not need to code anything on this subject, we only want to know how you would tackle the topic you choose.
 
+The subjects are voluntarily vague. You may use any methods you wish to tackle them. Having Large Language Models in the solution is not a requirement.
+
+The discussion will be mainly based on, from the most to the least important:
+* **Architecture & design choices**
+* **Scalability**
+* **Constraints and trade-offs**
+
 ### Domain classification
 
 Suppose you have access to a dataset of `N` links with a category label (blog, business, art ...). Given a new link, the goal is to determine its category. How would you tackle this task ?
