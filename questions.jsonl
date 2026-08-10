@@ -1,3 +1,4 @@
+// Questions on documents/
 {"question": "What is password spraying and how does it differ from traditional brute force attacks?"}
 {"question": "Which commonly used ports and services are typically targeted in password spraying attacks?"}
 {"question": "What are two techniques adversaries use to avoid detection when performing password spraying?"}
@@ -32,3 +33,26 @@
 {"question": "What defensive measures can be implemented to detect or prevent network sniffing in an enterprise environment?"}
 {"question": "Explain how System Binary Proxy Execution techniques can bypass process and signature-based defenses."}
 {"question": "What are the security implications of applications built with the Electron framework, and how can they be mitigated?"}
+
+// Questions on domain/IP investigation
+{"question": "Who is the domain registrar of harfanglab.io?"}
+{"question": "What IP address does harfanglab.io point to?"}
+{"question": "When does the google.com domain registry expire?"}
+
+// Questions on recent news (needs web searches)
+{"question": "Who won the 2026 football world cup?"}
+{"question": "Who is the current mayor of New York City?"}
+{"question": "When was the Kimi-K3 model released?"}
+{"question": "Who is the current CEO of HarfangLab?"}
+
+// Questions on EPSS
+// You can use https://api.first.org/epss/
+{"question": "What is the EPSS score of CVE-2003-0380?"}
+{"question": "Give me a CVE that has a EPSS score of more than 0.99."}
+
+// Hard questions
+// Needs a web search
+{"question": "What is the EPSS score of the CopyFail vulnerability?"}
+// Needs data from the documents/
+{"question": "A zero day vulnerability on Internet Explorer was used during Operation Dust Storm. What is the EPSS score of that CVE?"} 
+{"question": "What is the IP address of the organization that published a report on the Invisible Backdoor (CD00R), mentionned in the Network Sniffing article?"}

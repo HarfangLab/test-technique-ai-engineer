@@ -17,9 +17,13 @@ console = Console()
 
 api_key = os.getenv("MISTRAL_API_KEY")
 
-AVAILABLE_MODELS = [
+AVAILABLE_CHAT_MODELS = [
     "ministral-3b-2512",
-    "mistral-8b-2512",
+    "ministral-8b-2512",
+]
+
+AVAILABLE_EMBEDDING_MODELS = [
+    "mistral-embed-2312"
 ]
 
 MAX_TOKENS_IN_ANSWER = 32
@@ -69,7 +73,7 @@ def answer_and_display(mistral: Mistral, model: str, question: str) -> None:
 
 @click.command()
 @click.option(
-    "--model", "-m", type=click.Choice(AVAILABLE_MODELS), default="ministral-3b-2512"
+    "--model", "-m", type=click.Choice(AVAILABLE_CHAT_MODELS), default="ministral-3b-2512"
 )
 @click.option(
     "--questions-file",
@@ -86,7 +90,7 @@ def main(model: str, num_questions: int, questions_file: Path):
     questions = [
         json.loads(line).get("question")
         for line in questions_file.read_text().splitlines()
-        if line.strip()
+        if line.strip() and not line.strip().startswith("//")
     ]
 
     selected = random.sample(questions, min(num_questions, len(questions)))

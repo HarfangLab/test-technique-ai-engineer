@@ -20,9 +20,10 @@ mentioned above, you can provide us with code you've done elsewhere.
 ### Interview goal
 
 Your goal is to build an LLM-powered assistant that is capable of answering the questions inside `questions.jsonl`.
-You will see that questions range across N topics : 
+You will see that questions range across different topics : 
 * The files inside `documents`.
-* etc.
+* Interfacing with APIs
+* Searching the web
 
 ### LLM API
 
